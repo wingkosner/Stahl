@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/stahl.css" rel="stylesheet" media="screen">
+
   </head>
   <body>
     <div class="container-fluid">
@@ -45,17 +47,17 @@
   <div class="carousel-inner">
     <div class="item active"><!-- class of active since it's the first item -->
       <div class="carousel-caption">
-        <p>Coming soon! Fully revised, updated, and reformatted new edition of <em>Stahl&rsquo;s Essential Pharmacology</em>!</p>
+        <h4>Coming soon! Fully revised, updated, and reformatted new edition of <em>Stahl&rsquo;s Essential Pharmacology</em>!</h4>
       </div>
     </div>
     <div class="item">
       <div class="carousel-caption">
-        <p>Buy your copy now and save big on other major titles in the Stahl series!</p>
+        <h4>Buy your copy now and save big on other major titles in the Stahl series!</h4>
       </div>
     </div>
     <div class="item">
       <div class="carousel-caption">
-        <p>See the fourth edition&rsquo;s debut at this year&rsquo;s American Psychiatric Association Annual Meeting in San Diego!</p>
+        <h4>See the fourth edition&rsquo;s debut at this year&rsquo;s American Psychiatric Association Annual Meeting in San Diego!</h4>
       </div>
     </div>
   </div><!-- /.carousel-inner -->
@@ -68,5 +70,11 @@
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('.carousel').carousel({
+        interval: 3000
+  })
+</script>
+
   </body>
 </html>
