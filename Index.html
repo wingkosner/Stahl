@@ -4,6 +4,7 @@
     <title>Stahl&rsquo;s Essential Psychopharmacology</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/stahl.css" rel="stylesheet" media="screen">
 
@@ -23,7 +24,7 @@
     <div class="span10">
       <div class="chapter" id="chapter1">
 
-      	<h1>STAHL&rsquo;S ESSENTIAL PSYCHOPHARMACOLOGY</h1>
+      	<h1>Stahl&rsquo;s Essential Psychopharmacology</h1>
 
 			<h4> Essential. Trusted. Indispensible.</h4>
 
@@ -35,7 +36,8 @@
 
 <h4>NEW!</h4>
 
-<h2> Stahl&rsquo;s Essential Psychopharmacology: Neuroscientific Basis and Practical Applications, Fourth Edition</h2>
+<h2> Stahl&rsquo;s Essential Psychopharmacology:</h2> 
+<h3>Neuroscientific Basis and Practical Applications, Fourth Edition</h3>
 
     	<img src="assets/9781107686465.gif">
 <!-- [INSERT COVER IMAGE (9781107686465.gif) HERE AND LINK TO THE “STAHL&rsquo;S ESSENTIAL PSYCHOPHARMACOLOGY” SECTION]
@@ -44,21 +46,15 @@
 <!--  Carousel - consult the Twitter Bootstrap docs at
       http://twitter.github.com/bootstrap/javascript.html#carousel -->
 <div id="ticker" class="carousel slide"><!-- class of slide for animation -->
-  <div class="carousel-inner">
-    <div class="item active"><!-- class of active since it's the first item -->
-      <div class="carousel-caption">
-        <h4>Coming soon! Fully revised, updated, and reformatted new edition of <em>Stahl&rsquo;s Essential Pharmacology</em>!</h4>
+    <div class="carousel-inner">
+      <div class="item active"><!-- class of active since it's the first item -->
+          <h4>Coming soon! Fully revised, updated, and reformatted new edition of <em>Stahl&rsquo;s Essential Pharmacology</em>!</h4>
       </div>
-    </div>
-    <div class="item">
-      <div class="carousel-caption">
-        <h4>Buy your copy now and save big on other major titles in the Stahl series!</h4>
+      <div class="item">
+          <h4>Buy your copy now and save big on other major titles in the Stahl series!</h4>
       </div>
-    </div>
-    <div class="item">
-      <div class="carousel-caption">
-        <h4>See the fourth edition&rsquo;s debut at this year&rsquo;s American Psychiatric Association Annual Meeting in San Diego!</h4>
-      </div>
+      <div class="item">
+          <h4>See the fourth edition&rsquo;s debut at this year&rsquo;s American Psychiatric Association Annual Meeting in San Diego!</h4>
     </div>
   </div><!-- /.carousel-inner -->
 </div><!-- /.carousel -->
@@ -71,8 +67,9 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        $('.carousel').carousel({
-        interval: 3000
+        $(document).ready(function(){
+          $('#ticker').carousel();
+            interval: 3000
   })
 </script>
 

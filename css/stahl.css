@@ -1,15 +1,5 @@
 div #ticker {
 	color: #333333;
-	height: 36px;
-	width:150px;
-    height:100px;
-    min-width:150px;
-    min-height:100px;
-    max-width:200px;
-    max-height:100px;
-    overflow:hidden;
-    display:block;
-    border:1px solid red;
 }
 
 .carousel {
@@ -19,4 +9,36 @@ div #ticker {
 
 .carousel-inner {
 	height: 36px;
+}
+
+div.item {
+    height: 36px;
+    background-color: none;
+    color: #333333;
+}
+
+h1, h2 { 
+    font-family: EurostileCon-Hea;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3, h4, h5 { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150%;
+}
+
+.nav { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150%;
 }
