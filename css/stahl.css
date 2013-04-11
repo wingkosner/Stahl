@@ -1,5 +1,18 @@
-div #ticker {
-	color: #333333;
+a #branding {
+    width: 170px;
+    height: 220px;
+    background-image: url("../assets/stahl-logo.png");
+}
+
+#branding a {
+    width: 170px;
+    height: 220px;
+}
+
+div #ticker p {
+	color: #555555;
+    font-size: 15px;
+    text-align: center;
 }
 
 .carousel {
@@ -18,15 +31,29 @@ div.item {
 }
 
 h1, h2 { 
-    font-family: EurostileCon-Hea;
+    font-family: Eurostile-Bol;
     font-weight: normal;
     font-style: normal;
+    text-align: center;
 }
 
-h3, h4, h5 { 
+h4, h5 { 
     font-family: Eurostile-Reg;
     font-weight: normal;
     font-style: normal;
+    text-align: center;
+}
+
+h3 { 
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 100%;
 }
 
 p { 
@@ -37,8 +64,66 @@ p {
 }
 
 .nav { 
-    font-family: Eurostile-Reg;
+    font-family: Eurostile-Bol;
     font-weight: normal;
     font-style: normal;
-    font-size: 150%;
+    font-size: 100%;
+    width: 170px;
+}
+
+.nav-tabs.nav-stacked li a {
+    border: 0px;    
+}
+.container-fluid {
+    padding: 0px;
+}
+
+.chapter {
+    width: 700px;
+    margin: auto;
+}
+
+div .video iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+h5 .video {
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 220px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+.purple {
+    background-color: #583f99;
+}
+
+.pink {
+    background-color: #d75896;
+}
+
+.header h1 {
+    width: 700px;
+    margin: auto;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.header h3 {
+    color: #ffffff;
+}
+
+.narrow {
+    margin: 0px;
+    padding: 0px;
+    width: 170px;
+    position: fixed;
+}
+
+.span12 {
+    margin-left: 0px !important;
 }

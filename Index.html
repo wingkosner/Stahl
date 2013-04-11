@@ -8,70 +8,89 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/stahl.css" rel="stylesheet" media="screen">
 
+
   </head>
-  <body>
+  <body data-target="#navparent" data-spy="scroll">
     <div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span2">
-      <ul class="nav nav-tabs nav-stacked">
-      	<li><a href="#">Stahl&rsquo;s Essential Psychopharmacology</a></li>
-		<li><a href="#">Stahl&rsquo;s Illustrated Series</a></li>
-		<li><a href="#">Stahl&rsquo;s Essential Psychopharmacology Online</a></li>
-		<li><a href="#">CNS Spectrum</a></li>
-		<li><a href="#">Related titles</a></li>
-</ul>
-    </div>
-    <div class="span10">
-      <div class="chapter" id="chapter1">
+      <div class="row-fluid">
+        <div class="narrow" id="navparent" data-spy="affix">
+          <a href="#0"><div id="branding">
+          </div></a>
+            <ul class="nav nav-tabs nav-stacked">
+            	<li><a href="#c1">Stahl&rsquo;s Essential Psychopharmacology</a></li>
+      		    <li><a href="#">Stahl&rsquo;s Illustrated Series</a></li>
+      		    <li><a href="#">Stahl&rsquo;s Essential Psychopharmacology Online</a></li>
+      		    <li><a href="#">CNS Spectrum</a></li>
+      		    <li><a href="#">Related titles</a></li>
+            </ul>
+        </div>
+        <div class="span12 wide">
+            <div class="header purple" id="0">
+              <h1>Stahl&rsquo;s Essential Psychopharmacology</h1>
+            		<h3> Essential. Trusted. Indispensible.</h3>
+            </div>
 
-      	<h1>Stahl&rsquo;s Essential Psychopharmacology</h1>
+            <div class="chapter">
+    				  <blockquote>
+                <p>&ldquo;All of Dr. Stahl&rsquo;s writing is characterized by clarity of presentation and a notable ability to transform complicated scientific principles into readily understood prose. Characteristically, he illustrates his instructions with informative, charming, and sometimes witty cartood figures and diagrams. Dr. Stahl has a gift for teaching....&rdquo;</p>
+                <small><cite title="Source Title">Journal of Clinical Psychiatry</cite></small>
+              </blockquote>
 
-			<h4> Essential. Trusted. Indispensible.</h4>
+            <div class="video">
+              <iframe width="420" height="315" src="http://www.youtube.com/embed/ElFL4CrDMIY?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h5 class="video">[VIDEO OF STAHL&rsquo;S OVERVIEW OF THE FRANCHISE]</h5>
 
-				<p>&ldquo;All of Dr. Stahl&rsquo;s writing is characterized by clarity of presentation and a notable ability to transform complicated scientific principles into readily understood prose. Characteristically, he illustrates his instructions with informative, charming, and sometimes witty cartood figures and diagrams. Dr. Stahl has a gift for teaching....&rdquo;
+            <h4>NEW!</h4>
+            <h2> Stahl&rsquo;s Essential Psychopharmacology:</h2> 
+            <h3>Neuroscientific Basis and Practical Applications, Fourth Edition</h3>
 
-<span class="attribution">&mdash;Journal of Clinical Psychiatry</span></p>
+        	   <img src="assets/9781107686465.gif">
+    <!-- [INSERT COVER IMAGE (9781107686465.gif) HERE AND LINK TO THE “STAHL&rsquo;S ESSENTIAL PSYCHOPHARMACOLOGY” SECTION]
+     -->
 
-[PLEASE EMBDED VIDEO OF STAHL&rsquo;S OVERVIEW OF THE FRANCHISE]
+    <!--  Carousel - consult the Twitter Bootstrap docs at
+          http://twitter.github.com/bootstrap/javascript.html#carousel -->
+              <div id="ticker" class="carousel slide"><!-- class of slide for animation -->
+                  <div class="carousel-inner">
+                    <div class="item active"><!-- class of active since it's the first item -->
+                        <p>Coming soon! Fully revised, updated, and reformatted new edition of <em>Stahl&rsquo;s Essential Pharmacology</em>!</p>
+                    </div>
+                    <div class="item">
+                        <p>Buy your copy now and save big on other major titles in the Stahl series!</p>
+                    </div>
+                    <div class="item">
+                        <p>See the fourth edition&rsquo;s debut at this year&rsquo;s American Psychiatric Association Annual Meeting in San Diego!</p>
+                  </div>
+                </div><!-- /.carousel-inner -->
+              </div><!-- /.carousel -->
 
-<h4>NEW!</h4>
+          </div><!-- /.chapter -->
 
-<h2> Stahl&rsquo;s Essential Psychopharmacology:</h2> 
-<h3>Neuroscientific Basis and Practical Applications, Fourth Edition</h3>
+            <div class="header pink" id="c1">
+              <h1>Stahl&rsquo;s Essential Psychopharmacology</h1>
+                <h3> Available This Spring</h3>
+            </div>
 
-    	<img src="assets/9781107686465.gif">
-<!-- [INSERT COVER IMAGE (9781107686465.gif) HERE AND LINK TO THE “STAHL&rsquo;S ESSENTIAL PSYCHOPHARMACOLOGY” SECTION]
- -->
+            <div class="chapter">
+            </div>
 
-<!--  Carousel - consult the Twitter Bootstrap docs at
-      http://twitter.github.com/bootstrap/javascript.html#carousel -->
-<div id="ticker" class="carousel slide"><!-- class of slide for animation -->
-    <div class="carousel-inner">
-      <div class="item active"><!-- class of active since it's the first item -->
-          <h4>Coming soon! Fully revised, updated, and reformatted new edition of <em>Stahl&rsquo;s Essential Pharmacology</em>!</h4>
-      </div>
-      <div class="item">
-          <h4>Buy your copy now and save big on other major titles in the Stahl series!</h4>
-      </div>
-      <div class="item">
-          <h4>See the fourth edition&rsquo;s debut at this year&rsquo;s American Psychiatric Association Annual Meeting in San Diego!</h4>
-    </div>
-  </div><!-- /.carousel-inner -->
-</div><!-- /.carousel -->
 
-      </div>
-    </div>
-  </div>
-</div>
+      </div><!-- /.wide -->
+    </div><!-- /.row-fluid -->
+  </div><!-- /.container-fluid -->
 
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-affix.js"></script>    
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
           $('#ticker').carousel();
             interval: 3000
-  })
-</script>
+    });
+    </script>
+
 
   </body>
 </html>
