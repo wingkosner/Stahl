@@ -9,23 +9,27 @@ a #branding {
     height: 220px;
 }
 
-div #ticker p {
-	color: #555555;
-    font-size: 15px;
+#ticker p {
+    font-family: Eurostile-Bol;
+	color: #583f99;
+    font-size: 19px;
+    line-height: 100%;
     text-align: center;
 }
 
 .carousel {
   margin-top: 20px;
-  line-height: 1;
+  line-height: 2;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 .carousel-inner {
-	height: 36px;
+	height: 72px;
 }
 
-div.item {
-    height: 36px;
+.item {
+    height: 72px;
     background-color: none;
     color: #333333;
 }
@@ -64,16 +68,27 @@ p {
 }
 
 .nav { 
-    font-family: Eurostile-Bol;
+    font-family: Eurostile-Reg;
     font-weight: normal;
     font-style: normal;
-    font-size: 100%;
+    font-size: 120%;
     width: 170px;
 }
 
-.nav-tabs.nav-stacked li a {
-    border: 0px;    
+.nav-stacked li {
+    border: 0px; 
+    padding: 10px;
 }
+
+.nav-stacked a {
+    color: #ffffff;
+}
+
+.nav-stacked li .active a {
+    color: #666666;
+    background-color: inherit !important;
+}
+
 .container-fluid {
     padding: 0px;
 }
@@ -84,7 +99,7 @@ p {
 }
 
 div .video iframe {
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     display: block;
 }
 
@@ -104,6 +119,18 @@ h5 .video {
 
 .pink {
     background-color: #d75896;
+}
+
+.blue {
+    background-color: #0094c3;
+}
+
+.green {
+    background-color: #9acc5a;
+}
+
+.gray {
+    background-color: #777777;
 }
 
 .header h1 {
@@ -138,4 +165,28 @@ h5 .video {
 
 cite {
     font-style: italic;
+}
+
+blockquote {
+    border-left: none;
+    margin-bottom: 30px;
+
+}
+
+.violate {
+    position: absolute;
+    top: 130px;
+    right: 15%;
+    width: 150px;
+    height: 196px;
+    box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+}
+
+.violate h4 {
+        font-family: Eurostile-Bol;
+        font-size: 21px;
 }
