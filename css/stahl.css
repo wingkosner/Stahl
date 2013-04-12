@@ -209,6 +209,23 @@ blockquote {
     -moz-transform: rotate(7deg);
 }
 
+.violate2 {
+    position: relative;
+    top: 0px;
+    left: 20%;
+    width: 200px;
+    height: 263px;
+}
+
+
+.rotate2 {
+        box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+}
+
 .violate h4 {
         font-family: Eurostile-Bol;
         font-size: 21px;
