@@ -1,7 +1,7 @@
 a #branding {
     width: 170px;
     height: 220px;
-    background-image: url("../assets/stahl-logo.png");
+    background-image: url("../assets/stahl-world-mid-branding-2.png");
 }
 
 #branding a {
@@ -53,6 +53,7 @@ h3 {
     font-style: italic;
     font-weight: normal;
     text-align: center;
+    margin-top: 30px;
 }
 
 h1 {
@@ -104,7 +105,7 @@ p {
 }
 
 div .video iframe {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 0 auto;
     display: block;
 }
 
@@ -155,6 +156,7 @@ h5 .video {
 
 .header h3 {
     color: #ffffff;
+    margin-top: 0px;
 }
 
 .narrow {
