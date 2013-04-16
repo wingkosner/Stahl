@@ -240,7 +240,30 @@ blockquote {
         margin-bottom: 30px;
 }
 
-a .thumbnail {
+/*div .thumbnail img {
     border: 0px !important;
     padding: 0px !important;
+    margin: 0px !important;
 }
+
+ul .thumbnails li {
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+*/
+.thumbnail {
+    border: 0px;
+}
+
+.thumbnail img {
+    margin: 0px;
+    box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+}
+
+.thumbnail h6 {
+    font-size: 11px;
+}
+
