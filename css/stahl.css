@@ -34,7 +34,14 @@ a #branding {
     color: #333333;
 }
 
-h1, h2 { 
+h1 { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 { 
     font-family: Eurostile-Bol;
     font-weight: normal;
     font-style: normal;
@@ -57,7 +64,7 @@ h3 {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 56px;
     line-height: 100%;
 }
 
@@ -104,13 +111,18 @@ p {
     margin: auto;
 }
 
-div .video iframe {
+.video iframe {
     margin: 0 auto 0 auto;
     display: block;
 }
 
 h5 .video {
     text-align: center;
+}
+
+.video {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .header {
@@ -235,7 +247,7 @@ blockquote {
         font-size: 21px;
 }
 
-.span8 h6 {
+.span8  .offset3 h6 {
         text-align: center;
         margin-bottom: 30px;
 }
@@ -267,3 +279,25 @@ ul .thumbnails li {
     font-size: 11px;
 }
 
+.row-fluid .stripe {
+    margin-bottom: 30px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.hpurple {
+    color: #583f99;
+}
+
+.btn-large {
+    margin-bottom: 30px;
+}
+
+legend {
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;    
+}
