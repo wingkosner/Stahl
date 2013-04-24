@@ -41,6 +41,13 @@ h1 {
     text-align: center;
 }
 
+/*h1 { 
+    font-family: 'EurostileNextW01-Regula';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+*/
 h2 { 
     font-family: Eurostile-Bol;
     font-weight: normal;
@@ -56,8 +63,10 @@ h4, h5 {
 }
 
 h3 { 
-    font-family: Georgia, serif;
-    font-style: italic;
+/*    font-family: Georgia, serif;
+*/    
+    font-family: Eurostile-RegObl;
+    font-style: normal;
     font-weight: normal;
     text-align: center;
     margin-top: 30px;
@@ -72,7 +81,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .intro {
@@ -195,14 +204,21 @@ cite {
 }
 
 small {
+    font-family: Eurostile-Reg;
     text-align: right;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 blockquote {
     border-left: none;
     margin-bottom: 30px;
 
+}
+
+blockquote p {
+    font-family: Eurostile-Reg;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .violate {
