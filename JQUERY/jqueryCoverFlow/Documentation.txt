@@ -1,0 +1,86 @@
+Accordion Documentation 
+@author - Flashtuning
+@name - Cover flow
+
+Implementation :
+
+XHTML / Css / Jquery UI / Jquery  .
+
+Supported Jquery Version  :
+
+Jquery V 1.62
+
+Core Dependancy :
+
+Jquery UI Core / Jquery UI Widget 
+
+HTML MarkUp  : 
+
+<div class="coverFlow">
+  <ul>
+  <li class="childElem" tooltipContent="Lorem Ipsum 11" url="http://www.youtube.com" mode="_blank"></li>
+  </ul>
+ </div>
+
+Dependent CSS (Customaizable) :
+
+
+Customaizable Options :
+
+		containerWidth:600, // Container Width
+		
+		containerHeight:300, // Container Height
+		
+		backgroundColor:'#ccc',// Hexa value Container Background  color
+		
+		childElem:'.childElem', // Child element class name with dot
+		
+		currentElem:4, // Default element
+		
+		autoPlayDuration:3000, // Auto Play Duration
+		
+		action:'click', // User Action 
+		
+		spaceBetween:150, // Space between the list of elements
+		
+		inactiveScale:.8, // Inactive scale 
+		
+		inactiveAngle:.2, // Inactive Acgle
+		
+		button:{play:".play",next:".next",previous:".previous", onActive:"onactive"}, // Buttons class name
+		
+		autoplay:false, // Enable or disable the autoplay
+		
+		autoPlayLoadingImage:true, // Show the loading bar or not
+		
+		autoPlayLoadingdiv:'.innerLoader', // Set the div width based on the loading time
+		
+		tooltip:true, // Set the tooltip or not 
+		
+		tooltipDiv:".tooltipInner", // In this div only the text will be passed
+		
+		tooltipParent:".tooltip", // Tooltip parent , In this the positioning done
+		
+		sliderElement:'.sliderCover',  // Slide Element
+		
+		showSlider:true // Enable or disable slider
+		
+		tooltipH:'right', // right or left or center
+		
+		tooltipV:'bottom' // bottom or top
+
+
+Initializing the coverflow widget :
+
+Method 1 :
+
+$('#coverFlow').coverflow(); -> Main  ID '#coverFlow'
+
+Method 2 :
+
+$('#coverFlow').coverflow({_isAutoScroll:true,_buttons:{"p":".previous","n":".next","pause":".pauseAnimation"}});
+
+Method 3 :
+
+var obj = {_isAutoScroll:true,_buttons:{"p":".previous","n":".next","pause":".pauseAnimation"}};
+$('#coverFlow').coverflow(obj);

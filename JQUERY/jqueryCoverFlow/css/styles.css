@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.coverFlow{overflow:hidden; position:relative; margin:10px auto;}
+ul{ float:left; margin-top:20px; position:relative;list-style: none;}
+
+.loadingContainer{}
+
+.childElem{ width:300px; height:250px;position:absolute;}
+.img1{background:url(../images/p1.jpg) no-repeat center top !important; }
+.img2{background:url(../images/p2.jpg) no-repeat center top !important; }
+.img3{background:url(../images/p3.jpg) no-repeat center top !important; }
+.img4{background:url(../images/p4.jpg) no-repeat center top !important; }
+.img5{background:url(../images/p5.jpg) no-repeat center top !important; }
+.img6{background:url(../images/p6.jpg) no-repeat center top !important; }
+.img7{background:url(../images/p7.jpg) no-repeat center top !important; }
+.img8{background:url(../images/p8.jpg) no-repeat center top !important; }
+.img9{background:url(../images/p3.jpg) no-repeat center top !important; }
+.img10{background:url(../images/p4.jpg) no-repeat center top !important; }
+
+.tooltip{width:100px; height:auto; background:#2B2E31; border:1px solid #2B2E31; position:absolute; z-index:10000; display:none;}
+.tooltipInner{ padding:0px; color:#B3B8BD; width:100%; text-align:center; }
+.sliderCover{ width:600px; margin:10px auto;}
+
+.loadingImage{width:100px; height:3px; border:1px solid #2B2E31; margin:10px auto;}
+.innerLoader{ width:0%; height:3px; background:#B3B8BD;}
+
+.ui-slider-handle{background:#2B2E31 !important; border-radius:0px !important; border:0px !important; top:0px !important; height:11px !important;}
+.ui-slider-horizontal{ background:#B3B8BD !important;}
+.ui-state-hover{background:#FF0000 !important;}
+
+.buttons{position:relative;clear:both;overflow:hidden;width:530px;padding-left:430px;}
+.previous{width:26px;height:26px;background:url("../images/previous.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;}
+.next{width:26px;height:26px;background:url("../images/next.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+.play{width:26px;height:26px;background:url("../images/play.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+.onactive{width:26px;height:26px;background:url("../images/stop.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}

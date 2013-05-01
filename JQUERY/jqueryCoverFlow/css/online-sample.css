@@ -1,0 +1,19 @@
+﻿body {background: #fff url("../img/bkg-patt.jpg") repeat;font-family:Arial;font-size:12px;color:#656565; }
+#holder{margin: 0px auto;width: 960px; }
+a{color:#656565;text-decoration:underline;}	
+a:hover{text-decoration:none;}	
+#header{margin-top:20px;border-bottom:1px solid #a5a5a5;font-size:30px;color:#a5a5a5;}
+#componentDiv1{width: 960px;position:relative; margin-top:0px; }
+#shadow{margin-top:-60px;}
+#news{margin:30px 0px 20px 0px;color:#a5a5a5;font-size:20px;}
+.row { clear:both; overflow:hidden;margin-top:0px;}
+.hol { width: 220px; float: left;margin-right:26px;}
+.last{margin:0px;}
+.home-thumb img{border:5px solid #d5d5d5;}
+.home-thumb img:hover{border:5px solid #a5a5a5;}
+.home-post-title{font-size:16px;margin:10px 0px;color:#a5a5a5;}
+#footer{border-top:1px solid #a5a5a5;padding-top:10px;margin-top:20px;clear:both; overflow:hidden;}
+#copy{width: 300px; float: left;}
+#social{width: 400px; float: right;text-align:right;}
+#social ul{margin:0px;padding:0px;}
+#social ul li{display:inline;margin-right:7px;}
