@@ -101,7 +101,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 }
 
 *{
-	font-family: 'Lato', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 pre, pre span{
@@ -113,10 +113,10 @@ pre, pre span{
 	overflow:hidden;
 }
 
-#ascensorBuilding section:first-child article h1{
+/*#ascensorBuilding section:first-child article h1{
 	font-size: 30px;
 }
-
+*/
 section{
 	overflow:auto;
 box-shadow: inset 0 0 0px 5px rgb(0,0,0);
@@ -177,8 +177,29 @@ section article{
 	background:#444;
 }
 
+.feature{
+	width: 250px;
+	height: 75px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1px;
+	font-size: 30px;
+	border-radius:4px;
 
-#ascensorFloor1{
+}
+
+.offer{
+	background: #F9B233;
+}
+
+.video{
+	background: #B3CE4A;
+}
+
+/*#ascensorFloor1{
 	background: #F9B233;	
 }
 
@@ -204,7 +225,7 @@ section article{
 
 #ascensorFloor7{
 	background: #CA9E67;	
-}
+}*/
 
 /*New Code*/
 
@@ -218,43 +239,144 @@ section article{
 }
 
 #navigation ul li a{
-	background: #eee;
-	height:30px;
-	width: 220px;
-	border-radius:2px;
+	background: #74a0c5;
+	height:18px;
+	width: 204px;
+	border-radius: 4px;
 	position: fixed;
+	padding: 6px 8px;
+	color: #ffffff;
 }
 
-nav #navigation ul li a .ascensorLink1{
-    height: 180px;
-    background-image: url("assets/stahl-branding-2.png") !important;
+img #branding {
+	display: block !important;
+	position: relative;
+	top: -6px;
+	left: -6px;
 }
 
+#navigation .ascensorLink1{
+	background-image: url('../assets/stahl-branding-3.png');
+	height: 168px;
+}
 #navigation .ascensorLink3{
-	margin-top: 40px;
+	margin-top: 190px;
+	background: #7570c2;
 }
-
 #navigation .ascensorLink5{
-	margin-top: 80px;
+	margin-top: 230px;
 }
 #navigation .ascensorLink7{
-	margin-top: 120px;
+	margin-top: 270px;
+	background: #7570c2;
 }
 #navigation .ascensorLink9{
-	margin-top: 160px;
+	margin-top: 310px;
 }
 #navigation .ascensorLink11{
-	margin-top: 200px;
+	margin-top: 350px;
+	background: #7570c2;
 }
 #navigation .ascensorLink13{
-	margin-top: 240px;
+	margin-top: 390px;
 }
 #navigation .ascensorLink14{
-	margin-top: 280px;
+	margin-top: 430px;
+	background: #7570c2;
 }
 #navigation .ascensorLink16{
-	margin-top: 320px;
+	margin-top: 470px;
 }
+
+#ascensorFloor1, #ascensorFloor5, #ascensorFloor9, #ascensorFloor13, #ascensorFloor16{
+	background: #d5ab97;	
+}
+
+#ascensorFloor2, #ascensorFloor4, #ascensorFloor6, #ascensorFloor8, #ascensorFloor10, #ascensorFloor12, #ascensorFloor15{
+	background: #333333;
+	color: #888888;	
+}
+
+#ascensorFloor3, #ascensorFloor7, #ascensorFloor11, #ascensorFloor14{
+	background: #C2DADB;	
+}
+
+/*#ascensorFloor4{
+	background: #EB5D45;	
+}
+#ascensorFloor5{
+	background: #4AAEB6;	
+}
+
+#ascensorFloor6{
+	background: #E7DFBF;	
+}
+
+#ascensorFloor7{
+	background: #CA9E67;	
+}
+*/
+
+.container_12 {
+	width: 700px;
+}
+
+h1 { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 60px;
+    line-height: 100%;
+}
+
+/*h1 { 
+    font-family: 'EurostileNextW01-Regula';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+*/
+h2 { 
+    font-family: Eurostile-Bol;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 30px;
+}
+
+h4, h5 { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 { 
+/*    font-family: Georgia, serif;
+*/    
+    font-family: Eurostile-RegObl;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    font-size: 30px;
+}
+
+p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 90%;
+}
+
+li a { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+	font-size: 90%;
+}
+
 
 /*.twitter-share-button{
 	position: fixed;
