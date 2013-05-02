@@ -328,6 +328,8 @@ h1 {
     text-align: left;
     font-size: 60px;
     line-height: 100%;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
 }
 
 /*h1 { 
@@ -377,6 +379,27 @@ li a {
 	font-size: 90%;
 }
 
+.description .image {
+	float: left;
+	width: 260px;
+}
+
+.description {
+	min-height: 330px;
+}
+
+.description .text {
+	width: 430px;
+	float: right;
+	vertical-align: text-top;
+}
+
+.img-header{
+	background-image: url('../assets/coverflow-mockup-400.png');
+	background-repeat: none;
+	height: 128px;
+
+}
 
 /*.twitter-share-button{
 	position: fixed;
