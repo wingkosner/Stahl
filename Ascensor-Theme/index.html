@@ -449,6 +449,7 @@
 
 <script src="js/jquery.modal.js"></script>
 <script src="js/jquery.roundabout.js"></script>
+<script src="js/jquery.roundabout-shapes.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/jquery.ascensor.js"></script>
 <script src="js/script.js"></script>
@@ -457,13 +458,15 @@
    <script>
    $(document).ready(function() {
       $('ul.coverflow').roundabout({
-         tilt: 3.0,
+         // shape: 'figure8',
+         tilt: 3,
          autoplay: true,
          autoplayDuration: 2000,
          autoplayPauseOnHover: true,
          autoplayInitialDelay: 500,
-         maxScale: 0.7,
-         minScale: 0.2,
+         maxScale: 1,
+         minScale: .1,
+         minOpacity: 0.2,
          responsive: true
       });
    });
