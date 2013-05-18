@@ -1,0 +1,341 @@
+a #branding {
+    width: 170px;
+    height: 220px;
+    background-image: url("../assets/stahl-world-mid-branding-2.png");
+}
+
+#branding a {
+    width: 170px;
+    height: 220px;
+}
+
+#ticker p {
+    font-family: Eurostile-Bol;
+	color: #583f99;
+    font-size: 19px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.carousel {
+  margin-top: 20px;
+  line-height: 2;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.carousel-inner {
+	height: 72px;
+}
+
+.item {
+    height: 72px;
+    background-color: none;
+    color: #333333;
+}
+
+h1 { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+/*h1 { 
+    font-family: 'EurostileNextW01-Regula';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+*/
+h2 { 
+    font-family: Eurostile-Bol;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+h4, h5 { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 { 
+/*    font-family: Georgia, serif;
+*/    
+    font-family: Eurostile-RegObl;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 100%;
+}
+
+p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.intro {
+    margin-top: 30px;
+    margin-bottom:  30px;
+}
+
+.nav { 
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 120%;
+    width: 170px;
+}
+
+.nav-stacked li {
+    border: 0px; 
+    padding: 10px;
+}
+
+.nav-stacked a {
+    color: #ffffff;
+}
+
+.nav-stacked li .active a {
+    color: #666666;
+    background-color: inherit !important;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.chapter {
+    width: 700px;
+    margin: auto;
+}
+
+.video iframe {
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+h5 .video {
+    text-align: center;
+}
+
+.video {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.header {
+    width: 100%;
+    height: 220px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+.purple {
+    background-color: #583f99;
+}
+
+.pink {
+    background-color: #d75896;
+}
+
+.blue {
+    background-color: #0094c3;
+}
+
+.green {
+    background-color: #9acc5a;
+}
+
+.maroon {
+    background-color: #5a1601;
+}
+
+.navy {
+    background-color: #00336a;
+}
+
+.gray {
+    background-color: #777777;
+}
+
+.header h1 {
+    width: 700px;
+    margin: auto;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.header h3 {
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.narrow {
+    margin: 0px;
+    padding: 0px;
+    width: 170px;
+    position: fixed;
+}
+
+.span12 {
+    margin-left: 0px !important;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+cite {
+    font-style: italic;
+}
+
+small {
+    font-family: Eurostile-Reg;
+    text-align: right;
+    font-size: 100%;
+}
+
+blockquote {
+    border-left: none;
+    margin-bottom: 30px;
+
+}
+
+blockquote p {
+    font-family: Eurostile-Reg;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.violate {
+    position: absolute;
+    top: 130px;
+    right: 15%;
+    width: 150px;
+    height: 196px;
+}
+
+.rotate {
+        box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+}
+
+.violate2 {
+    position: relative;
+    top: 0px;
+    left: 20%;
+    width: 200px;
+    height: 263px;
+}
+
+
+.rotate2 {
+        box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+}
+
+.violate h4 {
+        font-family: Eurostile-Bol;
+        font-size: 21px;
+}
+
+.span8 h3 {
+        font-size: 21px;
+}
+
+.span8  .offset3 h6 {
+        text-align: center;
+        margin-bottom: 30px;
+}
+
+/*div .thumbnail img {
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+ul .thumbnails li {
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+*/
+.thumbnail {
+    border: 0px;
+}
+
+.thumbnail img {
+    margin: 0px;
+    box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+}
+
+.thumbnail h6 {
+    font-size: 11px;
+}
+
+.row-fluid .stripe {
+    margin-bottom: 30px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.hpurple {
+    color: #583f99;
+}
+
+.btn-large {
+    margin-bottom: 30px;
+}
+
+legend {
+    font-family: Eurostile-Reg;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;    
+}
+
+.full img {
+    margin-bottom: 30px;
+}
+
+.top img {
+    margin-top: 30px;
+}
+
+.shadow img {
+        box-shadow:0 0 6px #777; 
+    -moz-box-shadow:0 0 6px #777; 
+    -webkit-box-shadow:0 0 6px #777; 
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-bottom: 30px;
+}
